@@ -10,3 +10,16 @@ _main_files/
 *.aux
 *.out
 *.toc
+
+# System files
+.DS_Store
+Thumbs.db
+
+# R files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Build artifacts (old)
+_book/

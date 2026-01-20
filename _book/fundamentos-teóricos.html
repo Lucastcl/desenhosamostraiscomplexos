@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capítulo 1 Fundamentos Teóricos | Desenhos Amostrais Complexos: Fundamentos teóricos e aplicações em levantamentos oficiais</title>
+  <meta name="description" content="<p>Este projeto de Iniciação Científica tem como objetivo desenvolver material teórico
+sobre planos amostrais complexos, consolidando os fundamentos metodológicos utilizados em levantamentos populacionais de larga escala.</p>" />
+  <meta name="generator" content="bookdown 0.46 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capítulo 1 Fundamentos Teóricos | Desenhos Amostrais Complexos: Fundamentos teóricos e aplicações em levantamentos oficiais" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="<p>Este projeto de Iniciação Científica tem como objetivo desenvolver material teórico
+sobre planos amostrais complexos, consolidando os fundamentos metodológicos utilizados em levantamentos populacionais de larga escala.</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capítulo 1 Fundamentos Teóricos | Desenhos Amostrais Complexos: Fundamentos teóricos e aplicações em levantamentos oficiais" />
+  
+  <meta name="twitter:description" content="<p>Este projeto de Iniciação Científica tem como objetivo desenvolver material teórico
+sobre planos amostrais complexos, consolidando os fundamentos metodológicos utilizados em levantamentos populacionais de larga escala.</p>" />
+  
+
+<meta name="author" content="Alinne de Carvalho Veiga (Orientadora), {nomes dos alunos}" />
+
+
+<meta name="date" content="2026-01-20" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="amostragem-estratificada.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Desenhos Amostrais Complexos</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Resumo</a></li>
+<li class="chapter" data-level="1" data-path="fundamentos-teóricos.html"><a href="fundamentos-teóricos.html"><i class="fa fa-check"></i><b>1</b> Fundamentos Teóricos</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="fundamentos-teóricos.html"><a href="fundamentos-teóricos.html#amostragem-aleat%C3%B3ria-simples-vs-planos-complexos"><i class="fa fa-check"></i><b>1.1</b> Amostragem Aleatória Simples vs Planos Complexos</a></li>
+<li class="chapter" data-level="1.2" data-path="fundamentos-teóricos.html"><a href="fundamentos-teóricos.html#nota%C3%A7%C3%A3o-estat%C3%ADstica"><i class="fa fa-check"></i><b>1.2</b> Notação Estatística</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="amostragem-estratificada.html"><a href="amostragem-estratificada.html"><i class="fa fa-check"></i><b>2</b> Amostragem Estratificada</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="amostragem-estratificada.html"><a href="amostragem-estratificada.html#defini%C3%A7%C3%A3o-e-conceitos"><i class="fa fa-check"></i><b>2.1</b> Definição e Conceitos</a></li>
+<li class="chapter" data-level="2.2" data-path="amostragem-estratificada.html"><a href="amostragem-estratificada.html#estima%C3%A7%C3%A3o-de-par%C3%A2metros"><i class="fa fa-check"></i><b>2.2</b> Estimação de Parâmetros</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="amostragem-estratificada.html"><a href="amostragem-estratificada.html#totais"><i class="fa fa-check"></i><b>2.2.1</b> Totais</a></li>
+<li class="chapter" data-level="2.2.2" data-path="amostragem-estratificada.html"><a href="amostragem-estratificada.html#m%C3%A9dias"><i class="fa fa-check"></i><b>2.2.2</b> Médias</a></li>
+<li class="chapter" data-level="2.2.3" data-path="amostragem-estratificada.html"><a href="amostragem-estratificada.html#propor%C3%A7%C3%B5es"><i class="fa fa-check"></i><b>2.2.3</b> Proporções</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="amostragem-estratificada.html"><a href="amostragem-estratificada.html#vari%C3%A2ncia-dos-estimadores"><i class="fa fa-check"></i><b>2.3</b> Variância dos Estimadores</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="amostragem-por-conglomerados.html"><a href="amostragem-por-conglomerados.html"><i class="fa fa-check"></i><b>3</b> Amostragem por Conglomerados</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="amostragem-por-conglomerados.html"><a href="amostragem-por-conglomerados.html#conglomerados-em-um-est%C3%A1gio"><i class="fa fa-check"></i><b>3.1</b> Conglomerados em Um Estágio</a></li>
+<li class="chapter" data-level="3.2" data-path="amostragem-por-conglomerados.html"><a href="amostragem-por-conglomerados.html#conglomerados-em-m%C3%BAltiplos-est%C3%A1gios"><i class="fa fa-check"></i><b>3.2</b> Conglomerados em Múltiplos Estágios</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="probabilidades-proporcionais-ao-tamanho-ppt.html"><a href="probabilidades-proporcionais-ao-tamanho-ppt.html"><i class="fa fa-check"></i><b>4</b> Probabilidades Proporcionais ao Tamanho (PPT)</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="probabilidades-proporcionais-ao-tamanho-ppt.html"><a href="probabilidades-proporcionais-ao-tamanho-ppt.html#introdu%C3%A7%C3%A3o-ao-ppt"><i class="fa fa-check"></i><b>4.1</b> Introdução ao PPT</a></li>
+<li class="chapter" data-level="4.2" data-path="probabilidades-proporcionais-ao-tamanho-ppt.html"><a href="probabilidades-proporcionais-ao-tamanho-ppt.html#estima%C3%A7%C3%A3o-e-vari%C3%A2ncia"><i class="fa fa-check"></i><b>4.2</b> Estimação e Variância</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="aplicações-em-levantamentos-oficiais.html"><a href="aplicações-em-levantamentos-oficiais.html"><i class="fa fa-check"></i><b>5</b> Aplicações em Levantamentos Oficiais</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="aplicações-em-levantamentos-oficiais.html"><a href="aplicações-em-levantamentos-oficiais.html#an%C3%A1lise-de-relat%C3%B3rios-metodol%C3%B3gicos"><i class="fa fa-check"></i><b>5.1</b> Análise de Relatórios Metodológicos</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="aplicações-em-levantamentos-oficiais.html"><a href="aplicações-em-levantamentos-oficiais.html#ibge-brasil"><i class="fa fa-check"></i><b>5.1.1</b> IBGE (Brasil)</a></li>
+<li class="chapter" data-level="5.1.2" data-path="aplicações-em-levantamentos-oficiais.html"><a href="aplicações-em-levantamentos-oficiais.html#outros-ines"><i class="fa fa-check"></i><b>5.1.2</b> Outros INEs</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="referências.html"><a href="referências.html"><i class="fa fa-check"></i>Referências</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Publicado com bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Desenhos Amostrais Complexos: Fundamentos teóricos e aplicações em levantamentos oficiais</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="fundamentos-teóricos" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Capítulo 1</span> Fundamentos Teóricos<a href="fundamentos-teóricos.html#fundamentos-te%C3%B3ricos" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Neste capítulo, abordaremos os conceitos fundamentais da amostragem, diferenciando a Amostragem Aleatória Simples (AAS) dos Planos Amostrais Complexos. Discutiremos também a importância de uma notação estatística padronizada.</p>
+<div id="amostragem-aleatória-simples-vs-planos-complexos" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Amostragem Aleatória Simples vs Planos Complexos<a href="fundamentos-teóricos.html#amostragem-aleat%C3%B3ria-simples-vs-planos-complexos" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A amostragem estatística constitui uma ferramenta essencial para a obtenção de informações sobre populações extensas.</p>
+</div>
+<div id="notação-estatística" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Notação Estatística<a href="fundamentos-teóricos.html#nota%C3%A7%C3%A3o-estat%C3%ADstica" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Apresentaremos a notação que será utilizada ao longo de todo o material, baseada em obras clássicas como Cochran e Särndal.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="amostragem-estratificada.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["livro-amostragem.pdf", "livro-amostragem.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+# Fundamentos Teóricos
+
+Neste capítulo, abordaremos os conceitos fundamentais da amostragem, diferenciando a Amostragem Aleatória Simples (AAS) dos Planos Amostrais Complexos. Discutiremos também a importância de uma notação estatística padronizada.
+
+## Amostragem Aleatória Simples vs Planos Complexos
+
+A amostragem estatística constitui uma ferramenta essencial para a obtenção de informações sobre populações extensas.
+
+## Notação Estatística
+
+Apresentaremos a notação que será utilizada ao longo de todo o material, baseada em obras clássicas como Cochran e Särndal.

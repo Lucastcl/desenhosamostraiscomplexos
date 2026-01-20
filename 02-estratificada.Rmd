@@ -1,0 +1,15 @@
+# Amostragem Estratificada
+
+## Definição e Conceitos
+
+A amostragem estratificada consiste na divisão da população em grupos homogêneos (estratos) antes da seleção da amostra.
+
+## Estimação de Parâmetros
+
+### Totais
+
+### Médias
+
+### Proporções
+
+## Variância dos Estimadores

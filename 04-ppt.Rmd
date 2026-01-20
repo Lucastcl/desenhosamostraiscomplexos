@@ -1,0 +1,9 @@
+# Probabilidades Proporcionais ao Tamanho (PPT)
+
+## Introdução ao PPT
+
+A seleção de unidades com probabilidades desiguais, proporcionais a uma medida de tamanho (ex: número de domicílios), é uma técnica poderosa para melhorar a eficiência da amostragem.
+
+## Estimação e Variância
+
+Apresentaremos o estimador de Horvitz-Thompson.

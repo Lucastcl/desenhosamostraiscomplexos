@@ -1,0 +1,33 @@
+--- 
+title: "Desenhos Amostrais Complexos: Fundamentos teóricos e aplicações em levantamentos oficiais"
+author: "Alinne de Carvalho Veiga (Orientadora), {nomes dos alunos}"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  Este projeto de Iniciação Científica tem como objetivo desenvolver material teórico
+  sobre planos amostrais complexos, consolidando os fundamentos metodológicos utilizados em levantamentos populacionais de larga escala.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# Resumo {-}
+
+Este projeto de Iniciação Científica tem como objetivo desenvolver material teórico
+sobre planos amostrais complexos, consolidando os fundamentos metodológicos utilizados em levantamentos populacionais de larga escala. A proposta busca apresentar, de
+forma didática e sistematizada, os principais tipos de planos de amostragem complexos
+empregados em pesquisas oficiais, com foco em aspectos conceituais, notação estatística,
+equações de estimação e variância.
+
+A metodologia compreende uma revisão bibliográfica sistemática da literatura acadêmica especializada e a análise documental de relatórios técnicos de Institutos Nacionais de Estatística (INEs). O produto final será uma apostila didática em formato eletrônico destinada a estudantes e pesquisadores que buscam compreender os aspectos teóricos da amostragem complexa.
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), "bookdown", "knitr", "rmarkdown"
+), "packages.bib")
+```

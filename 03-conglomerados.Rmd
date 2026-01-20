@@ -1,0 +1,9 @@
+# Amostragem por Conglomerados
+
+## Conglomerados em Um Estágio
+
+Diferente da estratificada, na amostragem por conglomerados a unidade de seleção é um grupo de elementos (conglomerado).
+
+## Conglomerados em Múltiplos Estágios
+
+Em grandes levantamentos, é comum a seleção em múltiplos estágios (ex: Municípios -> Setores Censitários -> Domicílios).

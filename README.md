@@ -1,6 +1,6 @@
 # Desenhos Amostrais Complexos
 
-**Projeto de Iniciação Científica (PIBIC 2025-26)**  
+**Projeto de Iniciação Científica**  
 **Orientadora:** Alinne de Carvalho Veiga  
 **Aluno:** {nome dos alunos}
 

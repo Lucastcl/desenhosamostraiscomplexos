@@ -4,7 +4,7 @@
 **Orientadora:** Alinne de Carvalho Veiga  
 **Aluno:** {nome dos alunos}
 
-🔗 **Acesse o livro online:** [https://lucastcl.github.io/desenhosamostraiscomplexos/index.html](https://lucastcl.github.io/desenhosamostraiscomplexos/index.html)
+🔗 **Acesse o livro online:** [https://olucasandre.github.io/desenhosamostraiscomplexos/index.html](https://lucastcl.github.io/desenhosamostraiscomplexos/index.html)
 
 
 Este repositório contém o código-fonte e o texto da apostila didática sobre planos amostrais complexos.

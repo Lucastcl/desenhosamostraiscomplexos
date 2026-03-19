@@ -4,7 +4,7 @@
 **Orientadora:** Alinne de Carvalho Veiga  
 **Aluno:** {nome dos alunos}
 
-🔗 **Acesse o livro online:** [https://olucasandre.github.io/desenhosamostraiscomplexos/index.html](https://lucastcl.github.io/desenhosamostraiscomplexos/index.html)
+🔗 **Acesse o livro online:** [https://olucasandre.github.io/desenhosamostraiscomplexos/index.html](https://olucasandre.github.io/desenhosamostraiscomplexos/index.html)
 
 
 Este repositório contém o código-fonte e o texto da apostila didática sobre planos amostrais complexos.
@@ -70,7 +70,7 @@ Para usar este método, o dono do repositório deve ter adicionado seu usuário 
 1.  No RStudio, vá no menu **File** > **New Project...**
 2.  Selecione **Version Control** > **Git**.
 3.  No campo "Repository URL", cole o link oficial deste projeto:
-    `https://github.com/Lucastcl/desenhosamostraiscomplexos.git`
+    `https://github.com/olucasandre/desenhosamostraiscomplexos.git`
 4.  Em "Create project as subdirectory of", escolha a pasta onde o projeto será salvo no seu computador.
 5.  Clique em **Create Project**.
 
